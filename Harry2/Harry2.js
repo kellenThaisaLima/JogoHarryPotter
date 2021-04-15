@@ -5,8 +5,8 @@ function harryFase2()
         if (atravessaParede == 1)
         {
             document.write (`
-            <h1> Bem vinda a plataforma 9 3/4,
-            Temos o prazer de informar que V. Sa. ${atravessaParede} tem uma vaga na Escola de Magia e Bruxaria de Hogwarts. 
+            <h1> Bem vindo a plataforma 9 3/4 Harry.
+            Aproveite o Expresso Hogwarts e tenha ótima viagem. 
             </h1>
         `);
         }
@@ -14,7 +14,7 @@ function harryFase2()
         else if (atravessaParede == 2){
         
             document.write (`
-            <h1> ${atravessaParede}. Você se tornará um elfo domestico dos Durleys para sempre.</h1>
+            <h1> Ahh${atravessaParede}. Você perdeu a viagem.</h1>
             `);
         }
         else {

@@ -1,12 +1,11 @@
 function inicioHogwarts() 
 {
-        var abrirCarta = prompt("Você aceita o convite para Hogwarts? 1:Sim 2: Não");
+        var abrirCarta = prompt("Chegou a hora do chapéu seletor? 1: Sonserina Não 2: Ficar tranquilo");
 
         if (abrirCarta == 1)
         {
             document.write (`
-            <h1> Prezado Sr. Potter,
-            Temos o prazer de informar que V. Sa. ${abrirCarta} tem uma vaga na Escola de Magia e Bruxaria de Hogwarts. 
+            <h1> Melhor que seja ${abrirCarta.replace(2, "GRIFINÓRIA")}.
             </h1>
         `);
         }
@@ -14,7 +13,7 @@ function inicioHogwarts()
         else if (abrirCarta == 2){
         
             document.write (`
-            <h1> ${abrirCarta}. Você se tornará um elfo domestico dos Durleys para sempre.</h1>
+            <h1> ${abrirCarta}. Não há um bruxo que não tenha ficado mal e ue foi da Soserina.</h1>
             `);
         }
         else {
